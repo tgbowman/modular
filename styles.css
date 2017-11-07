@@ -1,0 +1,73 @@
+/* Navigation Bar */
+#navBar {
+    background-color: tomato;
+    margin-bottom: 25px;
+}
+
+#nav {
+    margin-top: 45px;
+    margin-right: 15px;
+    float: right;
+    font-size: 25px;
+    
+}
+
+#nav li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#nav li a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+#nav li a:visited {
+    color: black;
+}
+
+#nav li a:hover {
+    color: white;
+}
+
+#logo {
+    float: left;
+    font-size: 50px;
+    margin-left: 25px;
+}
+
+/* Product List */
+.product h1 {
+    font-size: 40px;
+}
+
+.product {
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(63, 63, 191, 0.3);
+    padding: 25px;
+    width: 80%;
+
+}
+
+.product img {
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px slategrey
+}
+
+.review {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 15px slategrey
+}
+
+/* Float ClearFix */
+.clearfix:after {
+    content: "";
+    display: table; 
+    clear: both; 
+  }
+
+  
